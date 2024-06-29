@@ -19,7 +19,7 @@ with open('nuevo_archivo.csv', 'w', newline='', encoding='utf-8') as archivo_csv
 print("¡Se ha creado el archivo exitosamente!")
 """
 
-
+"""
 # Leer Archivos CSv
 import csv
 # Sintaxis: open('nombre_del_archivo.csv', 'modo', newline='')
@@ -28,7 +28,11 @@ with open('nuevo_archivo.csv', 'r', newline='', encoding='utf-8') as archivo_csv
     lector_csv = csv.reader(archivo_csv)
     print("Las filas dentro del archivo csv son: ")
     for fila in lector_csv:
-        print(fila)
+            print(fila)
 
 print("El lectro completo del csv es: ")
-print(lector_csv)
+print(lector_csv) 
+"""
+
+
+print("Esto es un cambio del archivo para el ejemplo de GitHub")
